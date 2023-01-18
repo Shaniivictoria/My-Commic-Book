@@ -1,0 +1,33 @@
+body{
+    background-color: azure;
+}
+
+.comicContainer{
+    border:solid black;
+    height: 72vh;
+}
+
+.rowOne, .rowTwo{
+    border:solid seagreen;
+    height:45%;
+    margin: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block{
+    /* border:soild light burlywood; */
+    width: 33%;
+    
+}
+.pic{
+    border:soild brown;
+    /* background-color: Pink; */
+    width: 100%;
+    height: 70%;
+}
+.punchline{
+    /* border:soild red; */
+    height: 20%;
+    text-align: center;
+}
